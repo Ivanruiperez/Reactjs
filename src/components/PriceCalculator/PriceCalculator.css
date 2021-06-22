@@ -1,0 +1,49 @@
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    flex-direction: column;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1f3864;  
+}
+.sectionTittle{
+    font-size: 12px;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.inputGb{
+    border-color: #5b9bd5;
+    border-width: 1px;
+    height: 20px;
+    border-style: solid;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.buttonBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.buttonGb{
+    padding: 8px 25px;
+    background-color: #5b9bd5;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}

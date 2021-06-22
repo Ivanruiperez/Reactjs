@@ -1,0 +1,59 @@
+.tableItems{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-left: 110px;
+
+
+}
+.items{
+    display: flex;
+
+}
+.itemsCells{
+    display: flex;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8ba5d9;
+    font-size: 12px;
+    overflow: hidden;
+}
+.itemsCellsInfo{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 12px;
+    background-color: #8ba5d9;
+}
+.tooltipBox{
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 500;
+    width: 200px;
+    height: 100px;
+    background-color: #d4e0f1;
+}
+.tooltipButton{
+    display: flex;
+    max-width: 20px;
+    max-height: 20px;
+    background-color: #5b9bd5;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
